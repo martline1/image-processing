@@ -5,7 +5,7 @@ import numpy as np
 from skimage import io, img_as_float
 
 def main():
-	img = img_as_float(io.imread("vitral.png", as_gray = True))
+	img = img_as_float(io.imread("Lola.jpeg", as_gray = True))
 
 	# Gauss
 	img_gauss = cv2.GaussianBlur(img, (5, 5), 5, borderType = cv2.BORDER_CONSTANT)
